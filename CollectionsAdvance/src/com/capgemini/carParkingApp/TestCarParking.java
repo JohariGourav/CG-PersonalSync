@@ -32,6 +32,8 @@ public class TestCarParking {
 		parkedCarOwnerList.addNewCar(token2, owner2);
 		parkedCarOwnerList.addNewCar(token3, owner3);
 		
+		parkedCarOwnerList.getParkedCarLocation(token2);
+		
 		parkedCarOwnerList.removeCar(token2);
 		
 		parkedCarOwnerList.getParkedCarLocation(token2);
